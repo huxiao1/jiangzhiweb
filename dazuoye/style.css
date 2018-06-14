@@ -1,0 +1,446 @@
+*{
+    font-family: Microsoft YaHei UI;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a
+{
+    text-decoration-line: none;
+}
+header
+{
+    height: 90px;
+    background-color: #2e2e2e;
+}
+header > .container
+{
+    margin: 0 auto;
+}
+header > .container > a
+{
+    display: block;
+    float: left;
+    margin: 25px 0px;
+}
+header > .container > a > img 
+{
+	margin-top: auto;
+	margin-left: 40px;
+}
+header > .container > nav
+{
+    float: right;
+    margin-right: 20px;
+}
+header > .container > nav > a
+{
+    font-size: 20px;
+    line-height: 90px;
+
+    display: block;
+    float: left;
+    width: 150px;
+    height: 90px;
+
+    text-align: center;
+
+    color: white;
+}
+header > .container > nav > a:hover,
+header > .container > nav > a.active
+{
+    background-color: gray;
+}
+.banner
+{
+    position: relative;
+}
+.banner > img 
+{
+    width: 100%;
+    height: 677px;
+   
+}
+.banner>.content
+{
+	position: absolute;
+	color: #fff;
+	width: 840px;
+	height: 110px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+
+}
+.banner>.content>h1
+{
+	font-size: 70px;
+	text-align: center;
+}
+.banner>.content>p
+{
+	font-size: 20px;
+	text-align: center;
+}
+.main
+{
+	height: 2550px;
+}
+.main > .Portfolio
+{
+	height: 900px;
+}
+.main > .Portfolio >.begin
+{
+	padding-top: 50px;
+	height: 300px;
+	text-align: center;
+}
+.main > .Portfolio >.begin> h1
+{
+	font-size: 48px;
+	top: 50%;
+	color: #f46208;
+}
+.main > .Portfolio >.begin> p
+{
+	font-size: 14px;
+}
+.main > .Portfolio >.begin>.portfolioNav 
+{  
+	position: relative;
+	margin:0 auto;
+	margin-top:50px;
+	margin-bottom: 60px ;
+	text-align: center;
+}
+.main > .Portfolio >.begin>.portfolioNav > a 
+{ 
+	padding: 8px 9px; 
+	border: 1px solid #f46208; 
+	color: #f46208; 
+	font-size: 14px;
+	margin-right: 10px;
+}
+.main > .Portfolio >.begin>.portfolioNav > a:hover
+ { 
+ 	background: #f46208; 
+ 	color: #fff;
+ }
+.main > .Portfolio >.begin >img
+{
+	width: 100%;
+    height: 500px;
+}
+.main > .Stats
+{
+	padding-top: 0px;
+	text-align: center;
+	height: 400px;
+}
+.main > .Stats > h1
+{
+	font-size: 48px;
+	color: #f46208;
+}
+.main > .Stats > .StatsNav
+{
+	text-align: center;	
+}
+.main > .Stats > .StatsNav > img
+{
+	margin:0 50px;
+}
+.main > .Stats > .StatsNav > .Margins
+{
+	margin-left: -50px;
+
+	font-size: 24px;
+}
+.main > .Stats > .StatsNav > .word
+{
+	position: relative;
+	margin-top: 100px;
+	height: 50px;
+	width: 800px;
+	margin:0 auto;
+}
+.main > .Stats > .StatsNav > .linshi
+{
+	padding-bottom: 40px;
+	padding-top: 30px;
+	position: relative;
+	width: 1000px;
+	text-align: center;
+	margin: 0 auto;
+}
+.main > .Stats > .StatsNav > .word >.Margins
+{
+	position: absolute;
+	font-size: 24px;
+	left: 70px;
+}
+.main > .Stats > .StatsNav > .word >.Completed
+{
+	position: absolute;
+	font-size: 24px;
+	left: 250px;
+}
+.main > .Stats > .StatsNav > .word >.Projects
+{
+	position: absolute;
+	font-size: 24px;
+	left: 470px;
+	
+}
+.main > .Stats > .StatsNav > .word >.Customers
+{
+	position: absolute;
+	font-size: 24px;
+	left: 670px;
+}
+.main > .Stats > .StatsNav > .number
+{
+	position: relative;
+	height: 50px;
+	width: 800px;
+	margin:0 auto;
+	
+}
+.main > .Stats > .StatsNav > .number > span
+{
+	font-size: 28px;
+	color: #f46208;
+}
+.main > .Stats > .StatsNav > .number > .first
+{
+	position: absolute;
+	left: 50px;
+}
+.main > .Stats > .StatsNav > .number > .second
+{
+	position: absolute;
+	left: 260px;
+}
+.main > .Stats > .StatsNav > .number > .third
+{
+	position: absolute;
+	left: 480px;
+}
+.main > .Stats > .StatsNav > .number > .forth
+{
+	position: absolute;
+	left: 720px;
+}
+.main > .Team
+{
+	padding-top: 40px;
+	background-color: #2e2e2e;
+	height: 600px;
+	text-align: center;
+}
+.main > .Team > h1
+{
+	font-size: 48px;
+	top: 50%;
+	color: #f46208;
+}
+.main > .Team > p
+{
+	font-size: 14px;
+	color: #ffffff;
+}
+.main > .Team > .TeamNav > .img
+{
+		position: relative;
+		width: 1000px;
+		text-align: center;
+		margin: 0 auto;
+}
+.main > .Team >.TeamNav > .name > a 
+{
+	color: #ffffff;
+}
+.main > .Team >.TeamNav > .word > span
+{
+	color: #ffffff;
+}
+.main > .Team >.TeamNav > .word2 > span
+{
+	color: #ffffff;
+	font-size: 12px;
+}
+.main > .Team >.TeamNav > .img >.img1
+{
+	position:absolute;
+	left: 60px;
+}
+.main > .Team >.TeamNav > .img >.img2
+{
+	position:absolute;
+	left: 420px;
+}
+.main > .Team >.TeamNav > .img >.img3
+{
+	margin-left: 750px;
+}
+.main > .Team > .TeamNav > .name
+{
+	position: relative;
+	height: 50px;
+	width: 800px;
+	margin:0 auto;
+}
+.main > .Team > .TeamNav > .name > .Abigail
+{
+	position: absolute;
+	left: 40px;
+}
+.main > .Team > .TeamNav > .name > .Andy
+{
+	position: absolute;
+	left: 400px;
+}
+.main > .Team > .TeamNav > .name > .Jacqueline
+{
+	position: absolute;
+	left: 750px;
+}
+.main > .Team > .TeamNav > .word>span
+{
+	font-size: 12px;
+}
+.main > .Team > .TeamNav > .word
+{
+	position: relative;
+	height: 20px;
+	width: 1000px;
+	margin:0 auto;
+}
+.main > .Team > .TeamNav > .word > .first
+{
+	position: absolute;
+	left:50px;
+}
+.main > .Team > .TeamNav > .word > .second
+{
+	position: absolute;
+	left: 450px;
+}
+.main > .Team > .TeamNav > .word > .third
+{
+	position: absolute;
+	left: 770px;
+}
+.main > .Team > .TeamNav > .word2
+{
+	position: relative;
+	height: -10px;
+	width: 1000px;
+	margin:0 auto;
+}
+.main > .Team > .TeamNav > .word2 > .fifth
+{
+	position: absolute;
+	left:150px;
+}
+.main > .Team > .TeamNav > .word2 > .sixth
+{
+	position: absolute;
+	left:450px;
+}
+.main > .Team > .TeamNav > .word2 > .seventh
+{
+	position: absolute;
+	left:850px;
+}
+footer
+{
+    background-color: #000;
+}
+footer > .container
+{
+    width: 1200px;
+    height: 64px;
+    margin: 0 auto;
+}
+footer > .container > p
+{
+    line-height: 64px;
+
+    float: left;
+
+    color: #fff;
+}
+footer > .container > span
+{
+    float: right;
+
+    margin: 14px 40px;
+}
+footer > .container > span>img
+{
+    margin-left: 4px;
+
+    opacity: .7;
+}
+footer > .container > span > img:hover { opacity: 1; cursor: pointer; }
+.Contact
+{
+	padding-top: 20px;
+	height: 625px;
+	text-align: center;
+}
+.main > .Contact > h1
+{
+	font-size: 48px;
+	top: 50%;
+	color: #f46208;
+}
+.main > .Contact > p
+{
+	font-size: 14px;
+	color: #2e2e2e;
+}
+.main > .Contact > .input
+{
+	margin:0 auto;
+	width: 100%;
+}
+.main > .Contact > .input >.name
+{
+	height: 60px;
+	width: 500px;
+	border: 1px solid gray;
+}
+.main > .Contact > .input> .email
+{
+	height:60px;
+	width: 500px;
+	border: 1px solid gray;
+}
+.main > .Contact > .input> .message
+{
+	height: 220px;
+	width: 1010px;
+	border: 1px solid gray;
+}
+.main > .Contact > .input> .submit
+{
+	background-color: #f46208;
+	height: 50px;
+	width: 200px;
+	right: 0;
+	font-size: 20px;
+	color: white;
+	cursor: pointer;
+}
+footer > .container > p
+{
+	width: 100%;
+	text-align: center;
+}
